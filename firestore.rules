@@ -1,0 +1,21 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow test collection access during development
+    match /test_collection/{document=**} {
+      allow read, write: if true;
+    }
+    
+    // Allow users to access their own todos
+    match /users/{userId}/todos/{document=**} {
+      // For Clerk authentication, we need to check if the user is authenticated
+      // and if they're accessing their own data
+      allow read, write: if true; // Temporarily allow all access for testing
+    }
+    
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
