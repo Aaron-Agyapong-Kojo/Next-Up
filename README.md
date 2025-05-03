@@ -1,7 +1,7 @@
 
 ---
 
-# Organized Harmony
+# Next Up
 
 A simple and elegant productivity app built with modern web tools.
 
@@ -31,19 +31,6 @@ npm run dev
 
 This will launch the app locally with hot-reloading enabled.
 
-### ✏️ Edit Files on GitHub
-
-* Browse to the file you want to edit.
-* Click the pencil ✏️ icon to open the editor.
-* Make your changes and commit.
-
-### 💻 Use GitHub Codespaces
-
-* Open the repository on GitHub.
-* Click the green **Code** button.
-* Select the **Codespaces** tab.
-* Click **New codespace** to spin up a cloud-based dev environment.
-* Make changes and commit them right from the browser.
 
 ---
 
