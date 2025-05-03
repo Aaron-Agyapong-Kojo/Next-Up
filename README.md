@@ -29,7 +29,7 @@ npm install
 npm run dev
 ```
 
-This will launch the app locally with hot-reloading enabled.
+This will launch the app locally with hot reloading enabled.
 
 
 ---
