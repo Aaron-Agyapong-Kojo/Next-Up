@@ -43,7 +43,7 @@ const App = () => (
             }
           />
           <Route
-            path="/sign-in"
+            path="/sign-in/*"
             element={
               <SignedOut>
                 <SignIn />
@@ -51,7 +51,7 @@ const App = () => (
             }
           />
           <Route
-            path="/sign-up"
+            path="/sign-up/*"
             element={
               <SignedOut>
                 <SignUp />
